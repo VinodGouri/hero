@@ -52,6 +52,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: inset;
 }
+.reg-btn{
+    margin-top: 15px;
+}
+.reg-btn{
+   width :70%;
+   height :45%;
+   border-radius: 7px;
+   border-style:NONE;
+   background-color:red;
+   color:white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: large;
+   box-shadow: INSET;
+}
 .login-btn:hover{
+    cursor: pointer;
+}
+.reg-btn:hover{
     cursor: pointer;
 }
