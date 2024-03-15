@@ -69,6 +69,8 @@ body{
 
 .login-btn:hover{
     cursor: pointer;
+    color: red;
+    background-color: white;
 }
 .reg-btn{
    margin-left: 35px;
@@ -87,4 +89,6 @@ body{
 }
 .reg-btn:hover{
     cursor: pointer;
+    color: red;
+    background-color: white;
 }
