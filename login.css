@@ -77,3 +77,19 @@ body{
 .reg-btn:hover{
     cursor: pointer;
 }
+.nav-bar{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    height: 60px;
+    background-color:red;
+  
+}
+
+button{
+    background-color: #f08804;
+}
+a{
+    margin-right: 100px;
+    color:white;
+}
