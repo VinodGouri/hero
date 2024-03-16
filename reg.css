@@ -1,20 +1,46 @@
-.reg-btn{
-    margin-left: 35px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.reg-div{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width :70%;
-    height :45px;
-    border-radius: 7px;
-    border-style:NONE;
-    background-color:red;
-    color:white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 410px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+  
+}
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 50%;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 9px; 
+}
+
+.reg-btn{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: red;
+    color: white;
     font-size: large;
-    box-shadow: INSET;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: inset;
  }
+ 
  .reg-btn:hover{
      cursor: pointer;
      color: red;
      background-color: white;
  } 
+ 
