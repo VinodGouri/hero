@@ -1,0 +1,20 @@
+.reg-btn{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width :70%;
+    height :45px;
+    border-radius: 7px;
+    border-style:NONE;
+    background-color:red;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    box-shadow: INSET;
+ }
+ .reg-btn:hover{
+     cursor: pointer;
+     color: red;
+     background-color: white;
+ } 
