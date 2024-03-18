@@ -107,3 +107,12 @@ body{
     height: 400px;
     margin-left: 100px;
 }
+#hide-pass{
+    position: relative;
+    display: inline;
+    margin-left:-40px;
+    margin-bottom: -10px;
+}
+#hide-pass:hover{
+    cursor: pointer;
+}
