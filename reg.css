@@ -2,33 +2,98 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin-left: 50px;
+}
 .reg-div{
-    display: flex;
-    width: 70%;
+    margin: 0;
+    padding: 0;
+    width: 65%;
     height: 600px;
     border: 1px solid black;
     margin: auto;
     margin-top: 40px;
-  
+    display: flex;
+}
+.img{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
 }
 .reg-form{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    width: 50%;
+    width: 65%;
     height: 500px;
     background-color: whitesmoke;
-    border-radius: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 5%;
-    margin-top: 9px; 
+   
+
+}
+.details-para{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15%;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box1{
+    margin-left: 25%;
+    width: 70%;
+    height: 40px;
+    border-radius: 3px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+.box2{
+    margin-left: 25%;
+   
+     width: 70%;
+     height: 40px;
+     border-radius: 5px;
+     border-color: black;
+     border-style: solid;
+     text-align: center;
+}
+.box3{
+    margin-left: 25%;
+   
+     width: 70%;
+     height: 40px;
+     border-radius: 5px;
+     border-color: black;
+     border-style: solid;
+     text-align: center;
+}
+.box4{
+    margin-left: 25%;
+   
+     width: 70%;
+     height: 40px;
+     border-radius: 5px;
+     border-color: black;
+     border-style: solid;
+     text-align: center;
+}
+.box5{
+    margin-left: 25%;
+   
+     width: 70%;
+     height: 40px;
+     border-radius: 5px;
+     border-color: black;
+     border-style: solid;
+     text-align: center;
 }
 
+
 .reg-btn{
-    margin-left: 15%;
-    margin-top: 40px;
-    width: 70%;
-    height: 45px;
+    margin-left: 40%;
+    margin-top: 15px;
+    width: 25%;
+    height: 50px;
     border-radius: 5px;
     border-style: none;
     background-color: red;
@@ -37,18 +102,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: inset;
  }
+ .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover{
+    border-color: red;
+}
  
  .reg-btn:hover{
      cursor: pointer;
      color: red;
      background-color: white;
  } 
- .img{
-    margin: 5%;
-    width: 70%;
-    height: 600px;
-    margin-left: 500px;
-   padding-bottom: 350px;
-    
+ .back-to-lgn{
+    margin-left: 45%;
+    margin-top: 58px;
+    text-decoration: none;
  }
+
  
