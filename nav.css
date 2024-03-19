@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -8,28 +7,81 @@
     display: flex;
     width: 100%;
     height: 60px;
-    background-color: red;
-=======
-.nav-bar{
-    margin: 0px;
-    padding: 0px;
-    color:white;
-    height: 70px;
-    background-color:red;
-    position: static;
-    display: block;  
+    background-color: white;
+    border: 1px solid black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+.div-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 57px;
+    width: 90px;
+}
+/*.nav-newLaunches{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    
 }
 
-button{
-    background-color: #f08804;
-}
-a{
-    margin-right:  100px;
-    color:white;
+.new-launches{
     text-decoration: none;
-}
-.pro-log{
-    margin-top: 20px;
+    color: black;
+} 
+.new-launches:hover{
+    color: red;
     cursor: pointer;
->>>>>>> 870dc7a8f8373c683f939792690de8a1ebb90857
+}
+.nav-motorCycles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+.motorcycles{
+    text-decoration: none;
+    color: black;
+}
+.motorcycles:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav-scooters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+.scooters{
+    text-decoration: none;
+    color: black;
+}
+.scooters:hover{
+    color: red;
+    cursor: pointer;
+}*/
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    padding: 35px;
+}
+span a{
+    text-decoration: none;
+    color: black;
+}
+span a:hover{
+    color: red;
+    cursor: pointer;
 }
