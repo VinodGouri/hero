@@ -2,18 +2,21 @@
     margin: 0px;
     padding: 0px;
     color:white;
-    height: 60px;
+    height: 70px;
     background-color:red;
-  
+    position: static;
+    display: block;  
 }
 
 button{
     background-color: #f08804;
 }
 a{
-    margin-right: 100px;
+    margin-right:  100px;
     color:white;
+    text-decoration: none;
 }
 .pro-log{
+    margin-top: 20px;
     cursor: pointer;
 }
