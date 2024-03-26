@@ -10,3 +10,11 @@ hidepass.onclick = function(){
         hidepass.src="https://cdn-icons-png.freepik.com/256/14035/14035312.png?ga=GA1.1.617146296.1709204938&";
     }
 }
+//  document.getElementById("inner-text");
+//  if(password == confirmPassword){
+//     SubmitEvent.onclick = submit;
+//}
+//else{
+//submitevent.oclick = innerhtml = passworddoesnotmatch
+//}
+//  }
