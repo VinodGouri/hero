@@ -46,31 +46,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     text-align: end;
 }
 .label-2{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 .label-3{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 .label-4{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 .label-5{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 .box1{
     width: 50%;
     height: 40px;
+    margin-left: 50px;
     border-radius: 3px;
     border-color: black;
     border-style: solid;
@@ -79,6 +85,7 @@
 .box2{
     display: flex;
    margin-top: 15px;
+   margin-left: 50px;
     width: 50%;
      height: 40px;
      border-radius: 5px;
@@ -86,10 +93,19 @@
      border-style: solid;
      text-align: center;
 }
+#hide-pass{
+    position: relative;
+    margin-top: 15px;
+    margin-left: -35px;
+}
+#hide-pass:hover{
+    cursor: pointer;
+}
 .box3{
-     display: inline-block;
+    display: inline;
      margin-top: 15px;
-    width: 50%;
+     margin-left: 35px;
+     width: 50%;
      height: 40px;
      border-radius: 5px;
      border-color: black;
@@ -100,6 +116,7 @@
    
    display: inline-block;
    margin-top: 15px;
+   margin-left: 50px;
     width: 50%;
      height: 40px;
      border-radius: 5px;
@@ -110,6 +127,7 @@
 .box5{
   display: inline-block;
   margin-top: 15px;
+  margin-left: 100px;
     width: 50%;
      height: 40px;
      border-radius: 5px;
@@ -120,31 +138,38 @@
 
 
 .reg-btn{
-    margin-left: 40%;
+    margin-left: 37%;
     margin-top: 15px;
-    width: 25%;
+    width: 50%;
     height: 50px;
     border-radius: 5px;
     border-style: none;
     background-color: red;
     color: white;
     font-size: large;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: inset;
  }
  .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover{
     border-color: red;
 }
- 
  .reg-btn:hover{
      cursor: pointer;
      color: red;
      background-color: white;
  } 
- .back-to-lgn{
-    margin-left: 45%;
-    margin-top: 58px;
+ .back-to-lgn a{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    justify-content: center;
+    margin-top: 25px;
     text-decoration: none;
+    color: black;
  }
-
+ .back-to-lgn a:hover{
+    color: red;
+    text-decoration: underline;
+ }
  

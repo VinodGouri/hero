@@ -16,16 +16,16 @@
        <div class="label-1"><label for="username" class="username" id="label">Enter username</label> 
         <input type="text" class="box1" name="username" id="username" required placeholder="Username">  </div> 
         <div class="label-2"><label for="CreatePassword" id="label" class="password">Enter Password</label>
-        <input type="password" class="box2" name="Password" id="Password" required placeholder="Password"> </div>
+        <input type="password" class="box2" name="Password" id="Password" required placeholder="Password"><img src="https://cdn-icons-png.freepik.com/256/14035/14035324.png?ga=GA1.1.617146296.1709204938&" alt="" id="hide-pass" width="30px" height="30px"> </div>
        <div class="label-3"> <label for="Confirm-password1" id="label" class="cnf-pass">Confirm password</label>
-        <input type="password" class="box3" name="confirm password" id="confirm password" required placeholder="confirm password"> </div>
+        <input type="password" class="box3" name="confirm password" id="confirm-password" required placeholder="confirm password"> <img src="https://cdn-icons-png.freepik.com/256/14035/14035324.png?ga=GA1.1.617146296.1709204938&" alt="" id="hide-pass" width="30px" height="30px"></div>
        <div class="label-4"> <label for="mobile-no" id="label" class="phn-no"> Enter Mobile no</label>
         <input type="number" class="box4" name="phn-n0" id="phn-no" required placeholder="phn-no">  </div>
        <div class="label-5"> <label for="email-id" id="label">Email id</label>
         <input type="text" class="box5" name="email-id" id="email-id" required placeholder="email-id"> </div>
     </div>
-    <div>
-        <button class="reg-btn" type="submit">REGISTER</button>
+    <div> <p id="inner-text"></p>
+        <button class="reg-btn" id="btn" onclick="SubmitEvent" type="submit">REGISTER</button>
     </div>
     <div class="back-to-lgn">
         <a href="login.html">Back to login</a>
@@ -33,5 +33,6 @@
    </form>
    
   </div>
+  <script src="reg.js"></script>
 </body>
 </html>
